@@ -8,7 +8,7 @@ t_step = 0.2
 c_step = 1
 
 # dN/dt =  r * N ^ 2
-# it's solution is function
+# its solution is function
 # N(t) = 1.0 / (c1 - r * t)
 # c1 and r are consts
 r = 2.13
@@ -33,7 +33,7 @@ def draw_function_1(c_min, c_max, t_min, t_max, r):
 draw_function_1(5, 10, 0, 10, r)
 
 # dN/dt =  a * ((b * N ^ 2) /(b  + v * N))
-# it's solution is function
+# its solution is function
 # N(t) = b /(v *  W(b/v * e^(c_1 - (b * t) / a)))
 # a,b,v  are consts and > 0
 
